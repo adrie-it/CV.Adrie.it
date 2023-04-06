@@ -2,3 +2,18 @@ html {
   height: 100%;
   width: 100%;
 }
+
+#ke-it{
+  border: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  
+  padding: 10px;
+  margin: 0 0 10px 0;
+  width: 40vw;
+}
+
+#ke-img{
+  width: 5.5%;
+  height: 5.5%;
+}
