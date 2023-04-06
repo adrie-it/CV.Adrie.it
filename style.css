@@ -3,17 +3,25 @@ html {
   width: 100%;
 }
 
-#ke-it{
+#ke-img{
+  width: 8%;
+  height: 8%;
+  object-fit: cover;
+}
+
+.ke-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.ke-grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
   border: 3px;
   border-style: solid;
   border-radius: 5px;
-  
   padding: 10px;
-  margin: 0 0 10px 0;
-  width: 40vw;
-}
-
-#ke-img{
-  width: 5.5%;
-  height: 5.5%;
+  margin: 5px;
+  #font-size: 30px;
+  text-align: center;
 }
