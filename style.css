@@ -1,27 +1,55 @@
 html {
   height: 100%;
   width: 100%;
+  --1: white;
+  --2: #884a61;
+  --3: #f3ba7d;
+  --4: #daa573;
+  --5: #c19069;
+  --6: #a87c60;
+  --7: #01161C;
+  
+
+
+
+
+}
+
+#body{
+  background-color: #57C5B6:
+  margin: 50px:
+  padding: 50px;
+}
+
+#ke-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4)
 }
 
 #ke-img{
-  width: 8%;
-  height: 8%;
+  width: 27.5px;
+  height: 27.5px;
   object-fit: cover;
 }
 
 .ke-grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: #2196F3;
+  background-color: var(--7);
   padding: 10px;
 }
 .ke-grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
+  
   border: 3px;
   border-style: solid;
-  border-radius: 5px;
+  border-iradius: 5px;
+  border-color: --var(--2);
+
   padding: 10px;
   margin: 5px;
+  color: var(--2);
   #font-size: 30px;
   text-align: center;
 }
