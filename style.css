@@ -1,4 +1,6 @@
 html {
+  scroll-behavior: smooth;
+  font-family: montserratalt1;
   height: 100%;
   width: 100%;
   --1: white;
@@ -8,10 +10,6 @@ html {
   --5: #c19069;
   --6: #a87c60;
   --7: #01161C;
-}
-
-html{
-  scroll-behavior: smooth;
 }
 
 ::selection{
@@ -35,6 +33,14 @@ html{
   background-color: #40a598;
   margin-right: 12vw;
   margin-left: 12vw;
+}
+
+#nav{
+  background: linear-gradient(135deg, var(--2) 0%, var(--4) 100%);
+}
+
+#home{
+  height: 95vh;
 }
 
 #ho-h1{
