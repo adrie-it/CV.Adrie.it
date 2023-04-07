@@ -8,27 +8,29 @@ html {
   --5: #c19069;
   --6: #a87c60;
   --7: #01161C;
-  
+}
 
-
-
-
+@font-face {
+  font-family: montserratalt1;
+  src: url(fonts/montserratalt1-regular.otf);
 }
 
 #body{
-  background-color: #57C5B6:
-  margin: 50px:
-  padding: 50px;
+  background-color: #57C5B6;
+  margin: 180px;
 }
 
 #ke-h1{
   text-align: center;
   background-color: var(--7);
-  color: var(--4)
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
 }
 
 #ke-img{
-  width: 27.5px;
+  width: 30px;
   height: 27.5px;
   object-fit: cover;
 }
@@ -44,12 +46,10 @@ html {
   
   border: 3px;
   border-style: solid;
-  border-iradius: 5px;
   border-color: --var(--2);
 
   padding: 10px;
   margin: 5px;
   color: var(--2);
-  #font-size: 30px;
   text-align: center;
 }
