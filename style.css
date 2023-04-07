@@ -17,10 +17,48 @@ html {
 
 #body{
   background-color: #57C5B6;
-  margin: 180px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 50px;
 }
 
-#ke-h1{
+#ho-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#ov-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#we-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#sc-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+  #ke-h1{
   text-align: center;
   background-color: var(--7);
   color: var(--4);
