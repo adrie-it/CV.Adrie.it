@@ -10,16 +10,31 @@ html {
   --7: #01161C;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+::selection{
+  background-color: #48dbfb60;
+}  
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f1f1f1;
+} 
+::-webkit-scrollbar-thumb{
+  background-color: #2b2e36;
+}
+
 @font-face {
   font-family: montserratalt1;
   src: url(fonts/montserratalt1-regular.otf);
 }
 
 #body{
-  background-color: #57C5B6;
-  margin-left: 180px;
-  margin-right: 180px;
-  margin-top: 50px;
+  /*background-color: #57C5B6;*/
+  background-color: #40a598;
+  margin-right: 12vw;
+  margin-left: 12vw;
 }
 
 #ho-h1{
