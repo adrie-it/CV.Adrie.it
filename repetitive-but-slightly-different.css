@@ -13,125 +13,135 @@ html{
 }
 
 #home{
-    height: 95vh;
-  }
+  height: 95vh;
+}
   
-  #ho-h1{
-    text-align: center;
-    background-color: var(--7);
-    color: var(--4);
-    font-family: montserratalt1;
-    margin: 0px;
-    padding-top: 10px;
-  }
-  
-  #ov-h1{
-    text-align: center;
-    background-color: var(--7);
-    color: var(--4);
-    font-family: montserratalt1;
-    margin: 0px;
-    padding-top: 10px;
-  }
-  
-  #we-h1{
-    text-align: center;
-    background-color: var(--7);
-    color: var(--4);
-    font-family: montserratalt1;
-    margin: 0px;
-    padding-top: 10px;
-  }
+#ho-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
 
-  #we-img{
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-  }
+#ov-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#we-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#we-img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.we-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: var(--7);
+  padding: 10px;
+}
+.we-grid-item {
+  background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
   
-  .we-grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    background-color: var(--7);
-    padding: 10px;
-  }
-  .we-grid-item {
-    background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
-    
-    border: 3px;
-    border-style: solid;
-    border-color: --var(--2);
+  border: 3px;
+  border-style: solid;
+  border-color: --var(--2);
+
+  padding: 10px;
+  margin: 5px;
+  color: var(--2);
+  text-align: center;
+}
+
+#sc-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#sc-img{
+  width: 80px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.sc-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: var(--7);
+  padding: 10px;
+}
+.sc-grid-item {
+  background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
   
-    padding: 10px;
-    margin: 5px;
-    color: var(--2);
-    text-align: center;
-  }
+  border: 3px;
+  border-style: solid;
+  border-color: --var(--2);
+
+  padding: 10px;
+  margin: 5px;
+  color: var(--2);
+  text-align: center;
+}
+
+  #ke-h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#ke-h2{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#ke-img{
+  width: 30px;
+  height: 27.5px;
+  object-fit: cover;
+}
+
+.ke-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: var(--7);
+  padding: 10px;
+}
+
+.ke-grid-item {
+  background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
   
-  #sc-h1{
-    text-align: center;
-    background-color: var(--7);
-    color: var(--4);
-    font-family: montserratalt1;
-    margin: 0px;
-    padding-top: 10px;
-  }
-  
-  #sc-img{
-    width: 160px;
-    height: 80px;
-    object-fit: cover;
-  }
-  
-  .sc-grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    background-color: var(--7);
-    padding: 10px;
-  }
-  .sc-grid-item {
-    background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
-    
-    border: 3px;
-    border-style: solid;
-    border-color: --var(--2);
-  
-    padding: 10px;
-    margin: 5px;
-    color: var(--2);
-    text-align: center;
-  }
-  
-    #ke-h1{
-    text-align: center;
-    background-color: var(--7);
-    color: var(--4);
-    font-family: montserratalt1;
-    margin: 0px;
-    padding-top: 10px;
-  }
-  
-  #ke-img{
-    width: 30px;
-    height: 27.5px;
-    object-fit: cover;
-  }
-  
-  .ke-grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: var(--7);
-    padding: 10px;
-  }
-  .ke-grid-item {
-    background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
-    
-    border: 3px;
-    border-style: solid;
-    border-color: --var(--2);
-  
-    padding: 10px;
-    margin: 5px;
-    color: var(--2);
-    text-align: center;
-  }
+  border: 3px;
+  border-style: solid;
+  border-color: --var(--2);
+
+  padding: 10px;
+  margin: 5px;
+  color: var(--2);
+  text-align: center;
+}
