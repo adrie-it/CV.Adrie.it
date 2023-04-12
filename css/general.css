@@ -90,3 +90,65 @@ a:hover, a:active {
   transition: .3s linear;
 }
 
+#home{
+  height: 95vh;
+}
+  
+#ho-h{
+  font-size: larger;
+  font-family: montserratalt1;
+}
+
+#h1{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+h2{
+  text-align: center;
+  background-color: var(--7);
+  color: var(--4);
+  font-family: montserratalt1;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+#img-div{
+  float: left;
+  width: 15%;
+  margin: 0;
+  padding: 5px 15px 5px 5px;
+  background-color: lightblue;
+}
+
+#img{
+  object-fit: cover;
+  width: 70%;
+  height: 70%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+  background-color: var(--7);
+  padding: 10px;
+}
+.grid-item {
+  background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
+  
+  border: 3px;
+  border-style: solid;
+  border-color: --var(--2);
+
+  padding: 0px 10px 0px 0px;
+  margin: 0px;
+  color: var(--2);
+  text-align: center;
+}
