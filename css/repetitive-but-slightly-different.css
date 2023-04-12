@@ -1,15 +1,20 @@
 html{
-    scroll-behavior: smooth;
-    font-family: montserratalt1;
-    height: 100%;
-    width: 100%;
-    --1: white;
-    --2: #884a61;
-    --3: #f3ba7d;
-    --4: #daa573;
-    --5: #c19069;
-    --6: #a87c60;
-    --7: #01161C;
+  scroll-behavior: smooth;
+  font-family: montserratalt1;
+  height: 100%;
+  width: 100%;
+  --1: white;
+  --2: #884a61;
+  --3: #f3ba7d;
+  --4: #daa573;
+  --5: #c19069;
+  --6: #a87c60;
+  --7: #01161C;
+}
+
+@font-face {
+  font-family: montserratalt1;
+  src: url(fonts/montserratalt1-regular.otf);
 }
 
 #home{
@@ -23,6 +28,11 @@ html{
   font-family: montserratalt1;
   margin: 0px;
   padding-top: 10px;
+}
+
+#ho-h{
+  font-size: larger;
+  font-family: montserratalt1;
 }
 
 #ov-h1{
@@ -43,15 +53,28 @@ html{
   padding-top: 10px;
 }
 
+#we-img-div{
+  float: left;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+}
+
 #we-img{
-  width: 60px;
-  height: 60px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .we-grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  
   background-color: var(--7);
   padding: 10px;
 }
@@ -62,8 +85,8 @@ html{
   border-style: solid;
   border-color: --var(--2);
 
-  padding: 10px;
-  margin: 5px;
+  padding: 10px 10px 10px 0px;
+  margin: 0px;
   color: var(--2);
   text-align: center;
 }
@@ -77,15 +100,28 @@ html{
   padding-top: 10px;
 }
 
+#sc-img-div{
+  float: left;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+}
+
 #sc-img{
   width: 80px;
   height: 40px;
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .sc-grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  
   background-color: var(--7);
   padding: 10px;
 }
@@ -96,8 +132,8 @@ html{
   border-style: solid;
   border-color: --var(--2);
 
-  padding: 10px;
-  margin: 5px;
+  padding: 10px 10px 10px 0px;
+  margin: 0px;
   color: var(--2);
   text-align: center;
 }
@@ -120,15 +156,29 @@ html{
   padding-top: 10px;
 }
 
+#ke-img-div{
+  float: left;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+}
+
 #ke-img{
-  width: 30px;
-  height: 27.5px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  vertical-align: middle;
+  position: relative;
+  top: 45%;
 }
 
 .ke-grid-container {
   display: grid;
   grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  
   background-color: var(--7);
   padding: 10px;
 }
@@ -140,8 +190,8 @@ html{
   border-style: solid;
   border-color: --var(--2);
 
-  padding: 10px;
-  margin: 5px;
+  padding: 10px 10px 10px 0px;
+  margin: 0px;
   color: var(--2);
   text-align: center;
 }
