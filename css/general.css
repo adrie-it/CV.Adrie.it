@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  font-family: montserratalt1;
+  font-family: montserratalt;
   height: 100%;
   width: 100%;
   --1: white;
@@ -25,8 +25,8 @@ html {
 }
 
 @font-face {
-  font-family: montserratalt1;
-  src: url(fonts/montserratalt1-regular.otf);
+    font-family: montserratalt;
+    src: url(/fonts/montserratalt1-regular.otf);
 }
 
 #body{
@@ -34,7 +34,7 @@ html {
   background-color: #40a598;
   margin-right: 12vw;
   margin-left: 12vw;
-  font-family: montserratalt1;
+  font-family: montserratalt;
 }
 
 #nav{
@@ -44,11 +44,11 @@ html {
   list-style-image: none;
   width: 100%;
   color: var(--4);
-    position: fixed;
-    background-color: transparent;
-    width: 100%;
-    top: 0;
-    padding: 0 0 10px 0;
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  top: 0;
+  padding: 0 0 10px 0;
 }
 
 #nav-ul{
@@ -69,11 +69,14 @@ html {
 p{
   margin-block-start: 0em;
   margin-block-end: 0em;
+  font-family: Arial;
+  text-align: center;
 }
 
 a{
   text-decoration: none;
-  color: --var(--7);
+  font-family: Arial;
+  color: --var(--7)
 }
 
 a:link, a:visited {
@@ -96,14 +99,14 @@ a:hover, a:active {
   
 #ho-h{
   font-size: larger;
-  font-family: montserratalt1;
+  font-family: montserratalt;
 }
 
 #h1{
   text-align: center;
   background-color: var(--7);
   color: var(--4);
-  font-family: montserratalt1;
+  font-family: montserratalt;
   margin: 0px;
   padding-top: 10px;
 }
@@ -112,9 +115,18 @@ h2{
   text-align: center;
   background-color: var(--7);
   color: var(--4);
-  font-family: montserratalt1;
+  font-family: montserratalt;
   margin: 0px;
   padding-top: 10px;
+}
+
+h4{
+  text-align: center;
+  color: var(--2);
+  font-family: Arial;
+  margin: 0px;
+  padding-top: 2px;
+  font-weight: 550;
 }
 
 #img-div{
@@ -122,7 +134,11 @@ h2{
   width: 15%;
   margin: 0;
   padding: 5px 15px 5px 5px;
-  background-color: lightblue;
+  background-color: #f5f5f5;
+  border-left: 10px;
+  border-top: 10px;
+  border-bottom: 10px;
+  border-radius: 7px 0 0 7px;
 }
 
 #img{
@@ -140,12 +156,38 @@ h2{
   background-color: var(--7);
   padding: 10px;
 }
+
+.grid-container-wide {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+  background-color: var(--7);
+  padding: 10px;
+}
+
 .grid-item {
   background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
   
   border: 3px;
   border-style: solid;
   border-color: --var(--2);
+  border-radius: 10px;
+
+  padding: 0px 10px 0px 0px;
+  margin: 0px;
+  color: var(--2);
+  text-align: center;
+}
+
+.grid-item-wide {
+  background: linear-gradient(135deg, var(--3) 0%, var(--5) 100%);
+  
+  border: 3px;
+  border-style: solid;
+  border-color: --var(--2);
+  border-radius: 10px;
 
   padding: 0px 10px 0px 0px;
   margin: 0px;
