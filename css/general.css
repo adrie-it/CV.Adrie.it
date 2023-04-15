@@ -3,14 +3,13 @@ html {
   font-family: montserratalt;
   height: 100%;
   width: 100%;
-  --1: white;
+  --1: #ffffff;
   --2: #884a61;
   --3: #f3ba7d;
   --4: #daa573;
   --5: #c19069;
   --6: #a87c60;
   --7: #01161C;
-  --20: white;
 }
 
 ::selection{
@@ -52,6 +51,19 @@ html {
   padding: 0 0 10px 0;
 }
 
+#nav2{
+  background: linear-gradient(135deg, var(--4) 0%, var(--6) 100%);
+  margin: 0;
+  width: 100%;
+  color: var(--4);
+  background-color: transparent;
+  width: 100%;
+  top: 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-family: montserratalt;
+}
+
 #nav-ul{
   float: left;
   color: var(--4);
@@ -76,7 +88,7 @@ p{
 
 a{
   text-decoration: none;
-  font-family: Arial;
+  font-family: montserratalt, Arial;
   color: --var(--7)
 }
 
